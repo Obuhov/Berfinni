@@ -1,0 +1,196 @@
+@font-face {
+
+    /*Шрифт NotoSans Regular*/
+	font-family: 'NotoSans-Regular';
+	src: url('/assets/fonts/Noto_Sans/NotoSans-Regular.eot');
+	src: local('☺'), url('/assets/fonts/Noto_Sans/NotoSans-Regular.woff') format('woff'), url('/assets/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype'), url('/assets/fonts/Noto_Sans/NotoSans-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+
+    /*Шрифт NotoSans Bold*/
+	font-family: 'NotoSans-Bold';
+	src: url('/assets/fonts/Noto_Sans/NotoSans-Bold.eot');
+	src: local('☺'), url('/assets/fonts/Noto_Sans/NotoSans-Bold.woff') format('woff'), url('/assets/fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype'), url('/assets/fonts/Noto_Sans/NotoSans-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+
+    /*Шрифт PlayfairDisplay Regular*/
+	font-family: 'PlayfairDisplay-Regular';
+	src: url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.eot');
+	src: local('☺'), url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.woff') format('woff'), url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf') format('truetype'), url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: NotoSans-Regular;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Nav NavBar*/
+
+.nav {
+    padding: 40px 0px;
+}
+
+.nav__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+
+    /* Elegance */
+    font-family: NotoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+
+a.nav__logo:hover {
+    text-decoration: underline;
+}
+
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.nav__link:hover {
+    color: rgb(247, 36, 100);
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    color: black;
+}
+
+/* 
+.nav__cart {
+    
+}
+*/
+
+.nav__cart-link {
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.nav__cart-number {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    right: 0px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background: #F72464;
+}
+
+/* Header */
+
+/* 
+.header {
+
+} 
+*/
+
+.header__row {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__content {
+    position: absolute;
+    width: 650px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__title {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: PlayfairDisplay-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+.header__text {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+/* 
+.header__btn {
+
+} */
+
+.button {
+    display: inline-block;
+    padding: 0 33px;
+    height: 51px;
+    background: #F72464;
+    box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+    border-radius: 4px;
+
+    /*Text*/
+    font-family: PlayfairDisplay-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 51px;
+    color: white;
+    /* identical to box height */
+    text-align: center;
+}
+
+/* 
+.header__photo {
+
+} */
