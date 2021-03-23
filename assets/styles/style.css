@@ -62,7 +62,7 @@ body {
 .nav__row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .nav__logo {
@@ -73,6 +73,7 @@ body {
     font-weight: normal;
     font-size: 28px;
     line-height: 38px;
+    margin-right: 83px;
     color: #000000;
 }
 
@@ -100,11 +101,11 @@ a.nav__logo:hover {
     color: black;
 }
 
-/* 
+
 .nav__cart {
-    
+    margin-left: auto;
 }
-*/
+
 
 .nav__cart-link {
     position: relative;
@@ -173,9 +174,9 @@ a.nav__logo:hover {
 
 .button {
     display: inline-block;
-    padding: 0 33px;
+    padding: 0px 33px;
     height: 51px;
-    background: #F72464;
+    background-color: #ff014dc7;
     box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
     border-radius: 4px;
 
@@ -186,8 +187,15 @@ a.nav__logo:hover {
     font-size: 26px;
     line-height: 51px;
     color: white;
-    /* identical to box height */
     text-align: center;
+
+    /* Для плавной трансф. Тени */
+    transition: box-shadow 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.button:hover {
+    box-shadow: 0px 4px 25px rgba(172, 11, 59, 0.692);
+    background-color: #ff004c;
 }
 
 /* 
