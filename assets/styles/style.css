@@ -1,3 +1,9 @@
+.none {
+    display: none;
+}
+
+/*! Шрифт по умолчанию "NotoSans-Regular" */
+
 @font-face {
 
     /*Шрифт NotoSans Regular*/
@@ -53,7 +59,7 @@ body {
     margin: 0 auto;
 }
 
-/* Nav NavBar*/
+/** Nav NavBar*/
 
 .nav {
     padding: 40px 0px;
@@ -129,13 +135,7 @@ a.nav__logo:hover {
     background: #F72464;
 }
 
-/* Header */
-
-/* 
-.header {
-
-} 
-*/
+/** Header */
 
 .header__row {
     position: relative;
@@ -198,7 +198,95 @@ a.nav__logo:hover {
     background-color: #ff004c;
 }
 
-/* 
-.header__photo {
+/** Featured Products */
 
-} */
+.featured-section {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+/** Section header */
+
+.section-header {
+    margin-bottom: 40px;
+}
+.section-header__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: PlayfairDisplay-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+.section-header__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center; 
+    text-transform: uppercase;
+    color: #999999;
+
+}
+
+.section-header__description p {
+    margin-top: 0px;
+}
+
+/** Product */
+
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.product-link {
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.2s ease-in;
+}
+
+.product-link:hover {
+    opacity: 0.8;
+}
+
+.product {
+    text-align: center;
+    max-width: 270px;
+    max-height: 420px;
+}
+.product__img {
+    display: block;
+    width: 270px;
+    height: 350px;
+}
+.product__title {
+    margin: 0px;
+    margin-bottom: 12px;
+    font-family: PlayfairDisplay-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.product__price {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.product__price-old {
+    margin-right: 10px;
+    font-weight: normal;
+    color: #999999;
+}
+.product__price-new {
+    font-weight: bold;
+    color: #F72464;
+}
