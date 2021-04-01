@@ -4,8 +4,8 @@
 
 @import "/assets/styles/blocks/nav.css";
 @import "/assets/styles/blocks/header.css";
-@import "/assets/styles/blocks/featured.css";
 @import "/assets/styles/blocks/product.css";
 @import "/assets/styles/blocks/info-section.css";
+@import "/assets/styles/blocks/section-header.css";
 
 /*! Шрифт по умолчанию "NotoSans-Regular" */

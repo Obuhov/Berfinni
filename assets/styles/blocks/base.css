@@ -30,3 +30,16 @@ a {
 .section-button-wrapper {
     text-align: center;
 }
+
+
+/** Featured Products */
+
+.section-new {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section-featured {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
