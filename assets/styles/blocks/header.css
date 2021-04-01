@@ -1,0 +1,32 @@
+
+/** Header */
+
+.header__row {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__content {
+    position: absolute;
+    width: 650px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__title {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: PlayfairDisplay-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+.header__text {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,30 @@
+
+@font-face {
+
+    /*Шрифт NotoSans Regular*/
+	font-family: 'NotoSans-Regular';
+	src: url('/assets/fonts/Noto_Sans/NotoSans-Regular.eot');
+	src: local('☺'), url('/assets/fonts/Noto_Sans/NotoSans-Regular.woff') format('woff'), url('/assets/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype'), url('/assets/fonts/Noto_Sans/NotoSans-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+
+    /*Шрифт NotoSans Bold*/
+	font-family: 'NotoSans-Bold';
+	src: url('/assets/fonts/Noto_Sans/NotoSans-Bold.eot');
+	src: local('☺'), url('/assets/fonts/Noto_Sans/NotoSans-Bold.woff') format('woff'), url('/assets/fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype'), url('/assets/fonts/Noto_Sans/NotoSans-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+
+    /*Шрифт PlayfairDisplay Regular*/
+	font-family: 'PlayfairDisplay-Regular';
+	src: url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.eot');
+	src: local('☺'), url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.woff') format('woff'), url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf') format('truetype'), url('/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
