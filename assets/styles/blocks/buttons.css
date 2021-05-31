@@ -4,6 +4,7 @@
 } */
 
 .button {
+    position:relative;
     display: inline-block;
     padding: 0px 33px;
     height: 51px;
@@ -29,6 +30,16 @@
     background-color: #ff004c;
 }
 
+.button::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -40px;
+    left: -40px;
+    right: -40px;
+    bottom: -40px;
+}
+
 
 /* button outline */
 
@@ -48,7 +59,7 @@
     border: 1px solid #F72464;
     box-sizing: border-box;
     border-radius: 4px;
-    transition: background-color 0.3s ease-in;;
+    transition: background-color 0.3s ease-in;
 }
 
 .button-outline:hover {
