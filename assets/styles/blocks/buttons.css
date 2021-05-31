@@ -55,3 +55,41 @@
     background: #F72464;
     color: white;
 }
+
+/* Кнопки в постах */
+
+.post-button-wrapper {
+
+}
+
+.post__button {
+    font-family: PlayfairDisplay-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.post__button:hover {
+    color: #F72464;
+}
+
+.post__button::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(/assets/img/main/chevron-right.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-left: 2px;
+    vertical-align: middle;
+
+    transition: margin 0.3s ease-in;
+}
+
+.post__button:hover::after{
+    margin-left: 10px;
+}
